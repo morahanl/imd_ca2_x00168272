@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title> Liam Morahan </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="images/3b.jpg">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+	#aboutMe, #education, #workExp,#awards, #myModal header{
+		margin-left: 	1.5em;
+		padding-top:	5em;
+    margin-right: 	1.5em;
+
+	}
+
+  body {
+  background-color: #FDFEFE;
+  height: 100%;
+  color: black;
+  font-family: Palatino, serif;
+
+  margin: 0;
+
+
+  }
+
+
+
+  a:hover {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+
+	header p{
+		color:			black;
+		padding:		1em 10em 0em 10em;
+	}
+
+
+  #hero{
+width: 100%;
+height: auto;
+padding-left:  30px;
+padding-right:  30px;
+  }
+
+  .navbar-brand {
+color: black;
+font-size: 300%;
+font-family: Palatino, serif;
+
+
+  }
+
+  .year{
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+
+
+  }
+
+  #under_nav {
+
+    font-family: Palatino, serif;
+    font-size: 130%;
+    color: black;
+    position: fixed;
+    padding-left: 30px;
+    background-color: #FDFEFE;
+    width:100%;
+    height: 50px;
+    line-height:10px;
+    z-index: 1000;
+
+  }
+
+  #bottom_bar {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FDFEFE;
+    color: black;
+    text-align: center;
+    height: 70px;
+
+  }
+  #myModal{
+
+    z-index: 10001;
+
+  }
+
+  .exp_list{
+      list-style-type: disc;
+  }
+
+
+
+
+  hr {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 	0.5em;
+    margin-right: 2.5em;
+    border-style: inset;
+    border-width: 1px;
+    color: black;
+  }
+
+.fa {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
+  }
+
+a:hover{
+
+  opacity: 0.7;
+
+}
+.fa:hover {
+      opacity: 0.7;
+}
+.fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+
+.fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+ul li{
+
+  font: black;
+  margin-bottom: 10px;
+}
+
+.award_list{
+
+  font-size: 200%;
+  font-family: Palatino, serif
+}
+
+
+
+
+  </style>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-default" style="position: fixed; width:100%;background-color: #FDFEFE; border-color: #FDFEFE; z-index:1000;">
+    <div class="container-fluid">
+      <div class="navbar-header"style= "z-index:1000;">
+        <a class="navbar-brand" style="color: black; z-index:1000;" href="#"><b>Liam Morahan</b></a>
+      </div>
+      <ul class="nav navbar-nav navbar-right" style = " color: black; font-size: 150%; font-family: Palatino, serif; font-weight: bold;">
+        <li><a href="file:///C:/Users/lmmor/Desktop/imd_html/index.html#workExp" style = " color: black;">Experience</a></li>
+        <li><a href="file:///C:/Users/lmmor/Desktop/imd_html/index.html#education" style = " color: black;">Education</a></li>
+        <li><a href="file:///C:/Users/lmmor/Desktop/imd_html/index.html#awards" style = " color: black;">Achievements</a></li>
+        <li><a href="file:///C:/Users/lmmor/Desktop/imd_html/index.html#aboutMe" style = " color: black;">About</a></li>
+        <li><a data-toggle="modal" data-target="#myModal"  style = " color: black;">Contact </a></li>
+
+      </ul>
+    </div>
+  </nav>
+  <br><br>
+  <hr>
+<h id = "under_nav"><br>Scrum Master | Machine Learning <br><br><br><hr><br></h>
+
+<div id = "bottom_bar"><hr>
+<a href="https://www.linkedin.com/in/liam-morahan-562b3512a/" class="fa fa-linkedin"></a>
+<a href="mailto:morahanl@tcd.ie" class="fa fa-google"></a>
+
+
+<br><br>
+<br><br>
+<br><br>
+
+</div>
+<br><br>
+<img id = "hero" src="images/3c.jpg"  alt = "Hero image">
+		<section>
+
+      <div id="workExp">
+        <h1><br>Experience</h1>
+        <hr><br><br>
+        <div class="container">
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse0"><img src="images/dist.png" style="width: 5% ;height:3%;">
+ <b> Scrum Master</b>, Distilled SCH </a>
+          <p class="year"> 2019 - Present </p>
+        </h4>
+      </div>
+      <div id="collapse0" class="panel-collapse collapse in">
+        <div class="panel-body">
+<ul class= “exp_list”>
+<li>Provide coaching, facilitation and support to the team </li>
+<li>Support the Product Owner in developing and managing the backlog, creating appropriate stories, grooming, and prioritisation. </li>
+<li>Support the Product Owner and the Development team in delivering high quality software that exceeds customer expectations. </li>
+<li>Work with colleagues to improve our ability to deliver software, reducing our time to market whilst improving the quality of software delivered. </li>
+<li>Run scrum ceremonies effectively and efficiently. </li>
+<li>Track work progress to identify blockages and recurring issues.</li>
+<li>Making sure that all information regarding changes in scope, delays and other detrimental events are communicated to those involved with the piece of work as soon as they arise. </li>
+<li>Facilitating discussion, decision making and conflict resolution. </li>
+<li>Facilitate team meetings including, preparation, moderation and post meeting follow up. </li>
+<li>Update scrum boards  and, weekly status reports and  team dashboards. </li>
+</ul>
+</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><img src="images/vdf.png" style="width: 5%;height:5%">
+ <b> Scrum Master</b>, Vodafone Ireland </a>
+          <p class="year"> 2017 - 2019 </p>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">
+<ul class="exp_list">
+<li> Engaged all the stakeholders within IT Demand to adopt the Agile culture
+and mind-set. </li>
+<li>Built JIRA tooling for BAU &amp; ODP processes which supported Scrum and
+Kanban methodologies. </li>
+<li>Worked closely with stakeholders to ensure simplicity of use, for the full
+range of users, and privacy by design. </li>
+<li>Designed and delivered training for vendors and the business requestors. </li>
+<li>Developed an agile launch (governance) pack on how an IT project can be delivered by scrum with respect to Roles, Responsibility &amp; Ceremonies. </li>
+<li>Managed the decommissioning of the Ironport mail relay infrastructure. </li>
+<li>Lead the governance of high priority incidents as a Kanban project. </li>
+</ul>
+</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><img src="images/car.png" style="width: 7% ;height:7%;">
+ <b> Customer Operations Representative</b>, Cartrawler </a>
+          <p class="year"> 2017 </p>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body"><ul class="exp_list">
+          <li>Solve customer problems, Sales, Gather feedback. </li>
+        </ul></div>
+      </div>
+    </div>
+
+      </div>
+    </div>
+  </div>
+  <br><br><hr>
+</div>
+        <br><br><br><br><br><br><br><br>
+      </div>
+
+			<div id="education">
+				<h1><br>Education</h1>
+        <hr><br><br>
+        <div class="container">
+  <ul class="nav nav-tabs" style="font-size: 120%">
+    <li class="active"><a data-toggle="tab" href="#hpc"> M.Sc. High Performance Computing </a></li>
+    <li><a data-toggle="tab" href="#nano"> B.A. in Nanoscience, Physics and Chemistry of Advanced Materials </a></li>
+  </ul>
+
+  <div class="tab-content" style="font-size: 125%">
+    <div id="hpc" class="tab-pane fade in active">
+      <div class="container">
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>Subject</th>
+        <th>Grade %</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>High-Performance Computing Software</td>
+        <td>65</td>
+      </tr>
+      <tr>
+        <td>High-Performance Computing Systems</td>
+        <td>52</td>
+      </tr>
+      <tr>
+        <td>C programming</td>
+        <td>66</td>
+      </tr>
+      <tr>
+        <td>C++ programmming</td>
+        <td>68</td>
+      </tr>
+      <tr>
+        <td>Tools for scientific and technical computing</td>
+        <td>61</td>
+      </tr>
+      <tr>
+        <td>Numerical methods</td>
+        <td>64</td>
+      </tr>
+      <tr>
+        <td>Seminar series</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <td>CUDA</td>
+        <td>56</td>
+      </tr>
+      <tr>
+        <td>Stochastic methods</td>
+        <td>66</td>
+      </tr>
+      <tr>
+        <td>Parallel numerical algorithms</td>
+        <td>50</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    </div>
+    <div id="nano" class="tab-pane fade">
+      <div class="container">
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>Subject</th>
+        <th>Grade %</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Advanced Physical Chemistry II</td>
+        <td>53</td>
+      </tr>
+      <tr>
+        <td>Materials Chemistry I</td>
+        <td>73</td>
+      </tr>
+      <tr>
+        <td>Materials Chemistry II</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>Advanced Materials</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <td>Practical in Nanoscience</td>
+        <td>56</td>
+      </tr>
+      <tr>
+        <td>Condensed Matter</td>
+        <td>51</td>
+      </tr>
+      <tr>
+        <td>Nanoscience</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>Modern Optics</td>
+        <td>48</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    </div>
+  </div>
+</div>
+        <br><br><hr>
+			</div>
+  <br><br><br><br><br>
+
+  <div id="awards">
+    <h1><br>Achievements</h1>
+    <hr><br><br>
+  <ul class = "award_list">
+    <li>Professional Scrum Master I Certified. </li>
+    <li>Professional Product Owner I Certified. </li>
+    <li>Selected as a Top Performer in 2017 Vodafone Graduate Programme. </li>
+  </ul>
+    <br><br><hr>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+      <div id="aboutMe">
+        <h1><br>About</h1>
+        <hr><br><br>
+        <p id = "award_p" style="font-size:200%; padding: 30px">I am a science and computing graduate currently working as a scrum master with multiple teams delivering software for a web-based business.<br><br>I’d like to now make better use of my skills and as I have a passion for numbers, and the stories they can tell, I’m looking to kick start a career in data. <br><br>Outside of work I enjoy running and hurling, I also volunteer in some initiatives to engage young people with STEM including CoderDojo and Fiosracht Fashioneering camps.
+      </p>
+        <br><br><hr>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+			  <div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
+					  <h4 class="modal-title" style = " color: black; font-size: 150%; font-family: Palatino, serif; font-weight: bold;" >Contact Information</h4>
+					</div>
+					<div class="modal-body">
+					  <p style="font-size:24px; display:inline" class="fa">&#xf0e0; <a href="mailto:morahanl@tcd.ie" style = "display:inline;">    morahanl@tcd.ie </a><br><br></p>
+            <p style="font-size:24px; display:inline" class="fa">&#xf095; <a href="tel:00353857249213" style = "display:inline;">    +353857249213 </a></p>
+
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				  </div>
+
+	</section></div>
+
+
+</body></html>
